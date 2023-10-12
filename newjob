@@ -1,0 +1,30 @@
+{	
+  stage('Configuration and Automation')
+  {
+    echo"This is Configuration and Automation project using in Ansible.................."
+  } 
+  stage('Commit')
+  {
+    echo"This is Code Download from GIT Project Repository.................."
+  } 
+  stage('Build')
+  {
+    echo"This is Build project using maven.................."
+  }
+  stage('Quality and Assurance')
+  {
+    echo"This is Quality and Assurance project using in Sonar Qube.................."
+  }
+  stage('Test')
+  {
+    echo"This is Test project Implementation using selenium................."
+  }
+  stage('Release')
+  {
+     echo"This is Delivery using Kubernets............................."
+  }
+  stage('Moniter')
+  {
+     echo"This is Application Logs Monitering using to splunk.................."
+  }
+}
